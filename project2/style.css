@@ -1,0 +1,24 @@
+.container{
+    justify-content: center;
+    padding:40px;
+    background-color: rgb(18, 34, 160);
+    height: 300px;
+}
+#display{
+      width: 97%;
+      font: bold;
+      padding: 10px;
+      margin-bottom: 10px;
+}
+.buttons{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+.btn{
+    color:rgb(18, 145, 248);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    cursor: pointer;
+}
